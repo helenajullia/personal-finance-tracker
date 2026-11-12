@@ -64,8 +64,8 @@ func run() error {
 		fmt.Fprintf(w, `<!doctype html><html lang="en"><meta charset="utf-8">
 <title>%s</title><body>
 <h1>%s</h1>
-<p>[Surname Firstname], group [group]</p>
-<p>Project [number]: [title]</p>
+<p>Pastore Helena-Jullia, group DMWD</p>
+<p>Project 2: Personal Finance Tracker</p>
 </body></html>`, version.Current().App, version.Current().App)
 	})
 
